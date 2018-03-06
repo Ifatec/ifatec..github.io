@@ -60,8 +60,11 @@ header{
 .home{
 	padding-top: 96px;
 }
+.espaco{
+	padding-top: 50px;
+}
 
-.borda_esqueda{
+.borda_esquerda{
 	border-left: 1px solid #ddd;
 }
 .borda_direita{
