@@ -47,3 +47,11 @@ li ,.texto {
      font-family: GillSans, Calibri, Trebuchet, sans-serif !important;
     font-size: 16pt !important;
 }
+
+#MATERIAL a{
+    color:#e3f2fd ;
+}
+#MATERIAL a:hover{
+    color:#EE6E73 ;
+}
+
