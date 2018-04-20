@@ -1,19 +1,9 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
-}
-.tab{
-    color: white;
 }
 
 li ,.texto {
@@ -27,10 +17,31 @@ li ,.texto {
     z-index: 5;
 }
 
+.stylefatec {
+    background-color: #323B42 !important;
+    color: white;
+}
+.headerTab {
+    background-color: #8D191A;
+}
 
+.bodyTab {
+    background-color: white;
+    color: black !important;
+}
 
+.notas {
+ background-color: whitesmoke;
+ color: black;
+}
+
+#logo-container{
+    color: white;
+    font-weight: bold;
+     text-shadow: black 0.1em 0.1em 0.2em;
+}
 .tabs .tab .indicator {
-    color: white  !important;
+    color: black  !important;
 }
 
 .tabs .tab a.active {
@@ -45,12 +56,17 @@ li ,.texto {
     color: white  !important;
 }
 
-
-#MATERIAL a{
-    color:#e3f2fd ;
+#MATERIAL ul span{
+font-weight: bold;    
 }
-#MATERIAL a:hover{
-    color:#EE6E73 ;
+
+#MATERIAL a,#biblioteca{
+    color:black ;
+}
+#MATERIAL a:hover, #biblioteca:hover{
+    color:#8D191A;
+    font-weight: bold;  
+
 }
 
 img{
